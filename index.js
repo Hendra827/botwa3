@@ -977,7 +977,7 @@ exec('wget "' + text + '" -O mp4/'+ namafile +'.mp4', (error, stdout, stderr) =>
     });
     const page = await browser.newPage();
     await page
-      .goto("https://downloadgram.com/", {
+      .goto("https://id.savefrom.net/download-from-instagram", {
         waitUntil: "networkidle2",
       })
       .then(async () => {
